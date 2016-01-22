@@ -1,0 +1,2 @@
+aiohttp==0.20.2
+newspaper3k==0.1.6
