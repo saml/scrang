@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block body %}
+<p class="msg">Original: <a href="{{ url }}">{{ url }}</a></p>
+<div>
+  {{ html|safe }}
+</div>
+{% endblock %}
